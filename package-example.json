@@ -1,0 +1,29 @@
+{
+	"uni-app": {
+		"scripts": {
+			"mp-weixin":{
+				"title":"微信小程序",
+				"env":{
+					"UNI_PLATFORM":"mp-weixin",
+					"VUE_APP_SERVICE_URL":"http://localhost"
+				}
+			},
+			"dev":{
+				"title":"本地开发",
+				"browser":"chrome",
+				"env":{
+					"UNI_PLATFORM":"h5",
+					"VUE_APP_SERVICE_URL":"http://localhost"
+				}
+			},
+			"prod":{
+				"title":"正式",
+				"browser":"chrome",
+				"env":{
+					"UNI_PLATFORM":"h5",
+					"VUE_APP_SERVICE_URL":"http://localhost"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tangshi/tangshi",
+			"style": {
+				"navigationBarTitleText": "唐诗三百首"
+			}
+		},
+		{
+			"path": "pages/tangshi/tangshi_txt",
+			"style": {
+				"navigationBarTitleText": "唐诗三百首"
+			}
+		},
+		{
+			"path": "pages/songci/songci",
+			"style": {
+				"navigationBarTitleText": "宋词三百首"
+			}
+		},
+		{
+			"path": "pages/songci/songci_txt",
+			"style": {
+				"navigationBarTitleText": "宋词三百首"
+			}
+		},
+		{
+			"path": "pages/other/other",
+			"style": {
+				"navigationBarTitleText": "其他"
+			}
+		},
+		{
+			"path": "pages/other/caocao",
+			"style": {
+				"navigationBarTitleText": "曹操诗集"
+			}
+		},
+		{
+			"path": "pages/other/caocao_txt",
+			"style": {
+				"navigationBarTitleText": "曹操诗集"
+			}
+		},
+		{
+			"path": "pages/other/chuci",
+			"style": {
+				"navigationBarTitleText": "楚辞"
+			}
+		},
+		{
+			"path": "pages/other/chuci_txt",
+			"style": {
+				"navigationBarTitleText": "楚辞"
+			}
+		},
+		{
+			"path": "pages/other/lunyu",
+			"style": {
+				"navigationBarTitleText": "论语"
+			}
+		},
+		{
+			"path": "pages/other/lunyu_txt",
+			"style": {
+				"navigationBarTitleText": "论语"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#91979f",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				// "iconPath": "static/component.png",
+				// "selectedIconPath": "static/componentHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tangshi/tangshi",
+				// "iconPath": "static/api.png",
+				// "selectedIconPath": "static/apiHL.png",
+				"text": "唐诗"
+			}, {
+				"pagePath": "pages/songci/songci",
+				// "iconPath": "static/extui.png",
+				// "selectedIconPath": "static/extuiHL.png",
+				"text": "宋词"
+			}, {
+				"pagePath": "pages/other/other",
+				// "iconPath": "static/template.png",
+				// "selectedIconPath": "static/templateHL.png",
+				"text": "其他"
+			}
+		]
+	}
+}
